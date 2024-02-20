@@ -31,6 +31,14 @@ function App() {
     }
 
     />
+    <Route exact path="/socket" element={
+      <div>
+        
+        <ABOUT/>
+       </div>
+    }
+
+    />
      
     
     <Route exact path="/" element={

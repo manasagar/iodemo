@@ -1,5 +1,5 @@
 const mongoose=require('mongoose')
-const mongourl='mongodb+srv://manas:manas@cluster0.osifiku.mongodb.net/project'
+const mongourl='mongodb://localhost:27017'
 const connectToMongo=()=>{
     mongoose.connect(mongourl,{useNewUrlParser:true,useUnifiedTopology:true})
    let db= mongoose.connection
